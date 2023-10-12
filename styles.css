@@ -1,7 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+}
+
+.Starting {
+    background-color: #1F2937;
+    padding: 20px 100px 100px 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 80px;
+}
+
+.header-links {
+    display: flex;
+    gap: 10px;
+}
+
+.title-content {
+    display: flex;
+    align-items: center;
+}
+
+.title-text {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .image-container {
     display: flex;
 }
 
 .picture {
     text-align: center;
+}
+
+.Quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 100px;
 }
